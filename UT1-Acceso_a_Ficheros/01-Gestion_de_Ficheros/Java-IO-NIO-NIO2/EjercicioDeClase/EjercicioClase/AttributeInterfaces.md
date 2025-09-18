@@ -123,7 +123,7 @@ ___
 - Files.readAttributes() es más eficiente que llamar a Files.size(), Files.getLastModifiedTime(), etc. por separado, porque obtiene todo en una sola operación.
 ___
 
-```mermaid
+```
 flowchart TD
     A[Files.readAttributes(Path, Class<T>)] --> B[BasicFileAttributes]
     A --> C[PosixFileAttributes]
