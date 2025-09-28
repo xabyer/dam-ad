@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente dni = "78901234X">
+        <nombre>Mar</nombre>
+        <apellido>Nadales</apellido>
+        <codigoPostal>44126</codigoPostal>
+    </cliente>
+    <cliente dni = "89012345E">
+        <nombre>Alex</nombre>
+        <apellido>Rojas</apellido>
+        <validez estado = "borrado" timestamp = "1528286082"/>
+    </cliente>
+    <cliente dni = "78901234X">
+        <nombre>Rigoberto</nombre>
+        <apellido>Samper</apellido>
+        <codigoPostal>29730</codigoPostal>
+    </cliente>
+</clientes>
